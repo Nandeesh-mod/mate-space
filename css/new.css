@@ -1,0 +1,14 @@
+label
+{
+    cursor: pointer;
+}
+.text-area
+{
+    margin: 6px 8px 2px 8px;
+    padding: 19px;
+}
+
+#post
+{
+    display: none;
+}

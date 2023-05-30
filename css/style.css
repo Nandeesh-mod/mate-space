@@ -1,0 +1,68 @@
+*{
+    margin : 0;
+    padding: 0;
+    position: relative;
+}
+.user-box{
+    border-radius: 2px;
+    box-shadow:0px 0px 4px black ;
+    width: 280px;
+    height: 270px;
+    background-color: white;
+    margin-top: 90px;
+}
+.outer
+{
+    background-color: rgb(237, 233, 229);
+    height: 500px;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+}
+.picture
+{
+    margin-right: 100px;
+    margin-top: 100px;
+    color: blue;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+}
+.form-element
+{
+    display: flex;
+    flex-direction: column;
+}
+input
+{
+    margin: 6px 8px 2px 8px;
+    padding: 7px;
+}
+
+.submit{
+    border-radius: 5px;
+    border : 0px;
+    background-color: rgb(41, 41, 239);
+    color: white;
+}
+.password-but
+{
+    position: relative;
+    top: 3px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+hr{
+    position: relative;
+    top: 30px;
+    margin: 8px 5px 0px 8px;
+}
+
+#sign-up{
+    color: white;
+    border: 0px;
+    width: 130px;
+    background-color: rgb(32, 175, 59);
+    border-radius: 5px;
+}

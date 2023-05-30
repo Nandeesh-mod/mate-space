@@ -1,0 +1,69 @@
+*{
+    margin : 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+.menu-bar
+{
+    position: sticky;
+    top: 0px;
+}
+li{
+    list-style: none;
+}
+nav{
+    margin-top: 0px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    list-style: none;
+    
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "neue-haas-unica",sans-serif;
+    color: rgb(13, 12, 12);
+    font-weight: bold;
+}
+.logo-picture
+{
+    position: relative;
+    right: 160px;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "neue-haas-unica",sans-serif;
+    color: blue;
+}
+.log-option{
+    position: relative;
+    left: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+.button-1
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "neue-haas-unica",sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+
+.center-pan{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* hover the button */
+.button:hover
+{
+    border-bottom: solid rgb(29, 46, 231) 5px;
+    color: rgb(29, 46, 231) ;
+    
+}
+
